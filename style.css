@@ -1,0 +1,212 @@
+body, html {
+    height: 100%;
+    text-align: center;
+}
+
+section {
+    margin: 100px 0;
+}
+
+.footer {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    clear: both;
+}
+
+.navbar.footer {
+    border-radius: 0;
+    margin-bottom: 0;
+    border-width: 1px 0 0;
+}
+
+.wrapper.container {
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+}
+.brand{
+    margin-top: 80px;
+}
+.brand > div{
+    margin-top: 30px;
+}
+
+#logo{
+    height: 500px;
+}
+
+#logo > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.heading {
+    height: 500px;
+    overflow-y: auto;
+}
+
+.userImage {
+    margin: 10px 10px;
+    max-width: 100%;
+    height: 250px;
+    display: inline-block
+}
+
+.users > .col-md-2:hover > .userImage{
+    opacity: 0.7;
+    border: 2px groove green;
+    cursor: pointer;
+}
+
+.users > .col-md-2:hover > p {
+    color: green;
+}
+
+.users {
+    margin: 50px 0;
+}
+.contactsContent {
+    height: 300px;
+    border: 3px solid black;
+    margin: 10px 0;
+    background-color: gray;
+    border-radius: 4px;
+    padding: 0 !important;
+    position: relative;
+}
+#responseForm > input, #responseForm > div {
+    margin-top: 20px;
+}
+.textContainer {
+    height: 100px;
+}
+#responseText {
+    resize: none;
+    width: 60%;
+    height: inherit;
+}
+
+.info {
+    height: 50%;
+    margin-top: 20px;
+    overflow-y: auto;
+}
+#responseForm input[type=text] {
+    width: 300px;
+}
+
+.encouragement{
+    font-size: 20pt;
+    border-bottom: 3px solid black;
+    background-color: black;
+    color: white;
+}
+
+.gratitude {
+    height: 0%;
+    width: 100%;
+    transition: 1s;
+	background: #bfbfbf;
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.profile {
+    margin-top: 50px;
+}
+
+.userList>li{
+    display: inline;
+}
+
+.profile-right{
+    height: 100%;
+}
+.slideSummary {
+    width: 100%;
+    height: 150px;
+    overflow-y: auto;
+}
+.usersProfileSlider {
+    width: 100%;
+    height: 40%;
+}
+
+.carrouselList {
+    list-style: none;
+    width: 10000px;
+    padding: 0px;
+    position: relative;
+}
+
+.carrouselElement {
+    float: left;
+    display: block;
+    margin-right: 25px;
+}
+
+.carrouselElement img{
+    width: 200px;
+    height: 200px;
+}
+
+.carrouselHider {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+.navArrow:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+
+.navArrow {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.carrouselArrowLeft{
+    background-image: url("img/left.png");
+    background-size: contain;
+    float: left;
+}
+
+.carrouselArrowRight{
+    background-image: url("img/right.png");
+    background-size: contain;
+    float: right;
+}
+
+.profilePhoto img {
+    width: 400px;
+    height: 400px;
+}
+
+#backToView {
+    margin-top: 35px;
+}
+
+.hide {
+    display: none;
+}
+
+.btn-black {
+    color: white;
+    background-color: black;
+}
+
+.formControl {
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.glyphicon-user::before{
+    font-size: 40px;
+}

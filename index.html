@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="jquery-2.1.3.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="jQuery.carouselSlider.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+           <div class="container-fluid">
+               <div class="navbar-header">
+                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#headerNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                   <a class="navbar-brand" href="#" data-scroll="home">MyIT.c</a>
+               </div>
+               <div class="collapse navbar-collapse" id="headerNavbar">
+                   <ul class="nav navbar-nav upper">
+                       <li class="active"><a href="#" data-scroll="home">Home</a></li>
+                       <li><a href="#" class="changeState" data-scroll="users">Users</a></li>
+                       <li><a href="#" data-scroll="contacts">Contacts</a></li>
+                   </ul>
+               </div>
+           </div>
+       </nav>
+
+        <div class="wrapper container">
+            <section class="brand row" data-anchor="home">
+                <div class="heading col-md-4 col-md-offset-1">
+                    <h1>My IT company</h1>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga tenetur, eveniet. Ipsa ex pariatur id provident soluta, minus commodi explicabo porro nulla saepe illum non dolores libero iure, consequuntur tempore.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio necessitatibus nulla saepe ipsum impedit libero perspiciatis modi, distinctio ut magnam officiis consectetur sequi repudiandae tenetur suscipit error fuga, sint voluptatibus!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi pariatur, provident, accusantium explicabo deserunt nesciunt, cupiditate hic illo maxime omnis earum alias expedita tempore aperiam, et consequuntur distinctio nam sapiente.</p>
+                </div>
+                <div id="logo" class="col-md-4 col-md-offset-1">
+                    <img src="img/nice.png" alt="#">
+                </div>
+            </section>
+
+            <section class="users row" data-anchor="users">
+                
+            </section>
+
+            <section class="profile row hide" data-anchor="profile">
+                <div class="profilePhoto col-md-5">
+                    <img alt="#">
+                </div>
+                <div class="profile-right col-md-6">
+                    <div class="slideSummary">
+                        <h1>Empty</h1>
+                        <p></p>
+                    </div>
+                    <div class="usersProfileSlider carrouselSlider">
+                        <div class="carrouselHider">
+                           <ul class="carrouselList">
+                               <li class="carrouselElement"><img src=img/0.jpg></li>
+                               <li class="carrouselElement"><img src=img/1.jpg></li>
+                               <li class="carrouselElement"><img src=img/2.jpg></li>
+                               <li class="carrouselElement"><img src=img/3.jpg></li>
+                               <li class="carrouselElement"><img src=img/4.jpg></li>
+                               <li class="carrouselElement"><img src=img/5.jpg></li>
+                               <li class="carrouselElement"><img src=img/6.jpg></li>
+                               <li class="carrouselElement"><img src=img/7.jpg></li>
+                               <li class="carrouselElement"><img src=img/8.png></li>
+                               <li class="carrouselElement"><img src=img/9.png></li>
+                           </ul>
+                        </div>
+                        <div class="navArrow carrouselArrowLeft"></div>
+                        <div class="navArrow carrouselArrowRight"></div>
+                        <input type="button" id="backToView" value="Show all" class="btn btn-default">
+                    </div>
+                </div>
+            </section>
+
+            <section class="contacts row" data-anchor="contacts">
+               <h1>Contacts</h1>
+               <div class="contactsContent col-md-6 col-md-offset-2">
+                   <div class="encouragement">
+                       <p>Your opinion is important</p>
+                   </div>
+                   <form action="#" id="responseForm">
+                       <input type="text" id="userFirstName" class="formControl" placeholder="Your name" />
+                       <input type="text" id="userLastName" class="formControl" placeholder="Your surname" />
+                       <div class="textContainer row">
+                           <textarea id="responseText" class="formControl" placeholder="what do you want us to know?..."></textarea>
+                       </div>
+                       <input type="button" id="sendResponse" value="__Send__" class="btn btn-black"/>
+                   </form>
+                   <div class="gratitude row">
+                       <h1>Your letter was send</h1>
+                       <h3>We are glad to receive your message</h3>
+                       <input type="button" id="sendMore" value="__Send more__" class="btn btn-black" />
+                   </div>
+               </div>
+               <div class="contactInfo contactsContent col-md-2">
+                   <div class="info col-md-12">
+                       <span class="glyphicon glyphicon-user col-md-3"></span>
+                       <div class="col-md-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                   </div>
+                   <div class="info col-md-12">
+                       <span class="glyphicon glyphicon-user col-md-3"></span>
+                       <div class="col-md-9">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+                   </div>
+               </div>
+            </section>
+        </div>
+
+        <nav class="footer navbar navbar-inverse">
+           <div class="container-fluid">
+               <div class="navbar-header">
+                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#footerNavbar">
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                   </button>
+                   <a class="navbar-brand" href="#">Copyright bla-bla-bla</a>
+               </div>
+               <div class="collapse navbar-collapse" id="footerNavbar">
+                  <ul class="nav navbar-nav">
+                      <li><a href="#" data-scroll="home">Home</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Pricing</a></li>
+                      <li><a href="#">Blog</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                      <li><a href="#"><span class="glyphicon glyphicon-envelope"></span></a></li>
+                      <li><a href="#"><span class="glyphicon glyphicon-print"></span></a></li>
+                      <li><a href="#"><span class="glyphicon glyphicon-share"></span></a></li>
+                  </ul>
+               </div>
+           </div>
+
+        </nav>
+    </body>
+</html>
